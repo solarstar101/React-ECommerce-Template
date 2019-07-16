@@ -21,9 +21,31 @@ export default class Navbar extends Component {
 
 <li className="nav-item ml-15">
 <Link to ="/" className="nav-link">
-Products
+Our Menu
 </Link>
 </li>
+
+<li className="nav-item ml-15">
+<Link to ="/" className="nav-link">
+About
+</Link>
+</li>
+
+
+<li className="nav-item ml-15">
+<Link to ="/" className="nav-link">
+Offer 
+</Link>
+</li>
+
+
+<li className="nav-item ml-15">
+<Link to ="/" className="nav-link">
+News 
+</Link>
+</li>
+
+
 </ul>
 <Link to ='/Cart' className="ml-auto" >
  <ButtonContainer>

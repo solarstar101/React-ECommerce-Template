@@ -8,7 +8,7 @@ export default class Details extends Component {
         return (
            <ProductConsumer>
 {value => {
-const {id,company,img,info,price,title,inCart}
+const {id,img,info,price,title,inCart}
 = value.detailProduct;
 return (
     <div className="container py-5">
@@ -26,10 +26,8 @@ return (
 <img src={img} className="img-fluid" alt="product" />
 </div>
 <div className="col-10 mx-auto col-md-6 my-3 text-capitalize">
-<h2> Model: {title} </h2>
-<h4 className="text-title text-uppercase text-muted mt-3 mb-2">
-    Made By :<span className="text-uppercase">{company}</span>
-</h4> 
+<h2> {title} </h2>
+
 <h4 className="text-blue">
     <strong> price: <span>$</span>{price}</strong>
 </h4>
